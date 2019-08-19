@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\xampp\\htdocs\\vue-news\\github-emoji',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Administrator\AppData\Roaming\npm-cache\hhhhhdddddd\1.2.3\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle hhhhhdddddd@1.2.3~prepublish: hhhhhdddddd@1.2.3
+11 silly lifecycle hhhhhdddddd@1.2.3~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\hhhhhdddddd\\1.2.3\\package.tgz',
+12 verbose tar pack   'D:\\xampp\\htdocs\\vue-news\\github-emoji' ]
+13 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\hhhhhdddddd\1.2.3\package.tgz
+14 verbose folder D:\xampp\htdocs\vue-news\github-emoji
+15 verbose addLocalTarball adding from inside cache C:\Users\Administrator\AppData\Roaming\npm-cache\hhhhhdddddd\1.2.3\package.tgz
+16 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd hhhhhdddddd@1.2.3
+18 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\hhhhhdddddd\1.2.3\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\hhhhhdddddd\1.2.3\package\package.json written
+21 silly publish { name: 'hhhhhdddddd',
+21 silly publish   version: '1.2.3',
+21 silly publish   description: 'Github表情大全',
+21 silly publish   main: 'main.js',
+21 silly publish   scripts:
+21 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+21 silly publish      dev: 'webpack-dev-server' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/Wscats/github-emoji.git' },
+21 silly publish   author: { name: 'Wscats oaoafly&Windiest' },
+21 silly publish   license: 'ISC',
+21 silly publish   bugs: { url: 'https://github.com/Wscats/github-emoji/issues' },
+21 silly publish   homepage: 'https://github.com/Wscats/github-emoji#readme',
+21 silly publish   dependencies:
+21 silly publish    { 'babel-cli': '^6.23.0',
+21 silly publish      'babel-core': '^6.23.1',
+21 silly publish      'babel-loader': '^6.3.2',
+21 silly publish      'babel-preset-es2015': '^6.22.0',
+21 silly publish      'css-loader': '^0.26.1',
+21 silly publish      vue: '^2.1.6',
+21 silly publish      'vue-loader': '^10.0.2',
+21 silly publish      'style-loader': '^0.16.1',
+21 silly publish      'vue-template-compiler': '^2.1.6',
+21 silly publish      webpack: '^1.14.0',
+21 silly publish      'webpack-dev-server': '^2.3.0',
+21 silly publish      weui: '^1.1.1' },
+21 silly publish   devDependencies: { 'babel-loader': '^6.4.1' },
+21 silly publish   readme: '[预览](https://wscats.github.io/github-emoji/public/index.html)\r\n\r\n使用方法为前后冒号包围表情代号的句法。\r\n\r\nUse a colon to the front and rear surround expression syntax designations.\r\n\r\n```php\r\n:blush:\r\n```\r\n上面的字母会显示为这个表情 :blush:\r\n\r\nIt will be displayed as :blush:\r\n\r\n所以你在提交代码的时候可以这样写提交信息：\r\n\r\nSo you can write code to submit information submitted when:\r\n\r\n```\r\ngit commit –m \'commit some changes :blush:\'\r\n```\r\n\r\n也可以直接复制以下你选中的粘贴到github项目中你所需要的文本或者标题里面，希望你enjoy it! star or fork now:smile:\r\n\r\nYou can also copy the following selected pasted into github project you need inside text or title, I hope you enjoy it! Star or fork now:smile:\r\n\r\nPeople\r\n\r\n:bowtie:\r\n:smile:\r\n:laughing:\r\n:blush:\r\n:smiley:\r\n:relaxed:\r\n:smirk:\r\n:heart_eyes:\r\n:kissing_heart:\r\n:kissing_closed_eyes:\r\n:flushed:\r\n:relieved:\r\n:satisfied:\r\n:grin:\r\n:wink:\r\n:stuck_out_tongue_winking_eye:\r\n:stuck_out_tongue_closed_eyes:\r\n:grinning:\r\n:kissing:\r\n:kissing_smiling_eyes:\r\n:stuck_out_tongue:\r\n:sleeping:\r\n:worried:\r\n:frowning:\r\n:anguished:\r\n:open_mouth:\r\n:grimacing:\r\n:confused:\r\n:hushed:\r\n:expressionless:\r\n:unamused:\r\n:sweat_smile:\r\n:sweat:\r\n:disappointed_relieved:\r\n:weary:\r\n:pensive:\r\n:disappointed:\r\n:confounded:\r\n:fearful:\r\n:cold_sweat:\r\n:persevere:\r\n:cry:\r\n:sob:\r\n:joy:\r\n:astonished:\r\n:scream:\r\n:neckbeard:\r\n:tired_face:\r\n:angry:\r\n:rage:\r\n:triumph:\r\n:sleepy:\r\n:yum:\r\n:mask:\r\n:sunglasses:\r\n:dizzy_face:\r\n:imp:\r\n:smiling_imp:\r\n:neutral_face:\r\n:no_mouth:\r\n:innocent:\r\n:alien:\r\n:yellow_heart:\r\n:blue_heart:\r\n:purple_heart:\r\n:heart:\r\n:green_heart:\r\n:broken_heart:\r\n:heartbeat:\r\n:heartpulse:\r\n:two_hearts:\r\n:revolving_hearts:\r\n:cupid:\r\n:sparkling_heart:\r\n:sparkles:\r\n:star:\r\n:star2:\r\n:dizzy:\r\n:boom:\r\n:collision:\r\n:anger:\r\n:exclamation:\r\n:question:\r\n:grey_exclamation:\r\n:grey_question:\r\n:zzz:\r\n:dash:\r\n:sweat_drops:\r\n:notes:\r\n:musical_note:\r\n:fire:\r\n:hankey:\r\n:poop:\r\n:shit:\r\n:+1:\r\n:thumbsup:\r\n:-1:\r\n:thumbsdown:\r\n:ok_hand:\r\n:punch:\r\n:facepunch:\r\n:fist:\r\n:v:\r\n:wave:\r\n:hand:\r\n:raised_hand:\r\n:open_hands:\r\n:point_up:\r\n:point_down:\r\n:point_left:\r\n:point_right:\r\n:raised_hands:\r\n:pray:\r\n:point_up_2:\r\n:clap:\r\n:muscle:\r\n:metal:\r\n:fu:\r\n:runner:\r\n:running:\r\n:couple:\r\n:family:\r\n:two_men_holding_hands:\r\n:two_women_holding_hands:\r\n:dancer:\r\n:dancers:\r\n:ok_woman:\r\n:no_good:\r\n:information_desk_person:\r\n:raising_hand:\r\n:bride_with_veil:\r\n:person_with_pouting_face:\r\n:person_frowning:\r\n:bow:\r\n:couple_with_heart:\r\n:massage:\r\n:haircut:\r\n:nail_care:\r\n:boy:\r\n:girl:\r\n:woman:\r\n:man:\r\n:baby:\r\n:older_woman:\r\n:older_man:\r\n:person_with_blond_hair:\r\n:man_with_gua_pi_mao:\r\n:man_with_turban:\r\n:construction_worker:\r\n:cop:\r\n:angel:\r\n:princess:\r\n:smiley_cat:\r\n:smile_cat:\r\n:heart_eyes_cat:\r\n:kissing_cat:\r\n:smirk_cat:\r\n:scream_cat:\r\n:crying_cat_face:\r\n:joy_cat:\r\n:pouting_cat:\r\n:japanese_ogre:\r\n:japanese_goblin:\r\n:see_no_evil:\r\n:hear_no_evil:\r\n:speak_no_evil:\r\n:guardsman:\r\n:skull:\r\n:feet:\r\n:lips:\r\n:kiss:\r\n:droplet:\r\n:ear:\r\n:eyes:\r\n:nose:\r\n:tongue:\r\n:love_letter:\r\n:bust_in_silhouette:\r\n:busts_in_silhouette:\r\n:speech_balloon:\r\n:thought_balloon:\r\n:feelsgood:\r\n:finnadie:\r\n:goberserk:\r\n:godmode:\r\n:hurtrealbad:\r\n:rage1:\r\n:rage2:\r\n:rage3:\r\n:rage4:\r\n:suspect:\r\n:trollface:\r\n\r\n\r\nNature\r\n\r\n:sunny:\r\n:umbrella:\r\n:cloud:\r\n:snowflake:\r\n:snowman:\r\n:zap:\r\n:cyclone:\r\n:foggy:\r\n:ocean:\r\n:cat:\r\n:dog:\r\n:mouse:\r\n:hamster:\r\n:rabbit:\r\n:wolf:\r\n:frog:\r\n:tiger:\r\n:koala:\r\n:bear:\r\n:pig:\r\n:pig_nose:\r\n:cow:\r\n:boar:\r\n:monkey_face:\r\n:monkey:\r\n:horse:\r\n:racehorse:\r\n:camel:\r\n:sheep:\r\n:elephant:\r\n:panda_face:\r\n:snake:\r\n:bird:\r\n:baby_chick:\r\n:hatched_chick:\r\n:hatching_chick:\r\n:chicken:\r\n:penguin:\r\n:turtle:\r\n:bug:\r\n:honeybee:\r\n:ant:\r\n:beetle:\r\n:snail:\r\n:octopus:\r\n:tropical_fish:\r\n:fish:\r\n:whale:\r\n:whale2:\r\n:dolphin:\r\n:cow2:\r\n:ram:\r\n:rat:\r\n:water_buffalo:\r\n:tiger2:\r\n:rabbit2:\r\n:dragon:\r\n:goat:\r\n:rooster:\r\n:dog2:\r\n:pig2:\r\n:mouse2:\r\n:ox:\r\n:dragon_face:\r\n:blowfish:\r\n:crocodile:\r\n:dromedary_camel:\r\n:leopard:\r\n:cat2:\r\n:poodle:\r\n:paw_prints:\r\n:bouquet:\r\n:cherry_blossom:\r\n:tulip:\r\n:four_leaf_clover:\r\n:rose:\r\n:sunflower:\r\n:hibiscus:\r\n:maple_leaf:\r\n:leaves:\r\n:fallen_leaf:\r\n:herb:\r\n:mushroom:\r\n:cactus:\r\n:palm_tree:\r\n:evergreen_tree:\r\n:deciduous_tree:\r\n:chestnut:\r\n:seedling:\r\n:blossom:\r\n:ear_of_rice:\r\n:shell:\r\n:globe_with_meridians:\r\n:sun_with_face:\r\n:full_moon_with_face:\r\n:new_moon_with_face:\r\n:new_moon:\r\n:waxing_crescent_moon:\r\n:first_quarter_moon:\r\n:waxing_gibbous_moon:\r\n:full_moon:\r\n:waning_gibbous_moon:\r\n:last_quarter_moon:\r\n:waning_crescent_moon:\r\n:last_quarter_moon_with_face:\r\n:first_quarter_moon_with_face:\r\n:crescent_moon:\r\n:earth_africa:\r\n:earth_americas:\r\n:earth_asia:\r\n:volcano:\r\n:milky_way:\r\n:partly_sunny:\r\n:octocat:\r\n:squirrel:\r\n\r\n\r\nObjects\r\n\r\n:bamboo:\r\n:gift_heart:\r\n:dolls:\r\n:school_satchel:\r\n:mortar_board:\r\n:flags:\r\n:fireworks:\r\n:sparkler:\r\n:wind_chime:\r\n:rice_scene:\r\n:jack_o_lantern:\r\n:ghost:\r\n:santa:\r\n:christmas_tree:\r\n:gift:\r\n:bell:\r\n:no_bell:\r\n:tanabata_tree:\r\n:tada:\r\n:confetti_ball:\r\n:balloon:\r\n:crystal_ball:\r\n:cd:\r\n:dvd:\r\n:floppy_disk:\r\n:camera:\r\n:video_camera:\r\n:movie_camera:\r\n:computer:\r\n:tv:\r\n:iphone:\r\n:phone:\r\n:telephone:\r\n:telephone_receiver:\r\n:pager:\r\n:fax:\r\n:minidisc:\r\n:vhs:\r\n:sound:\r\n:speaker:\r\n:mute:\r\n:loudspeaker:\r\n:mega:\r\n:hourglass:\r\n:hourglass_flowing_sand:\r\n:alarm_clock:\r\n:watch:\r\n:radio:\r\n:satellite:\r\n:loop:\r\n:mag:\r\n:mag_right:\r\n:unlock:\r\n:lock:\r\n:lock_with_ink_pen:\r\n:closed_lock_with_key:\r\n:key:\r\n:bulb:\r\n:flashlight:\r\n:high_brightness:\r\n:low_brightness:\r\n:electric_plug:\r\n:battery:\r\n:calling:\r\n:email:\r\n:mailbox:\r\n:postbox:\r\n:bath:\r\n:bathtub:\r\n:shower:\r\n:toilet:\r\n:wrench:\r\n:nut_and_bolt:\r\n:hammer:\r\n:seat:\r\n:moneybag:\r\n:yen:\r\n:dollar:\r\n:pound:\r\n:euro:\r\n:credit_card:\r\n:money_with_wings:\r\n:e-mail:\r\n:inbox_tray:\r\n:outbox_tray:\r\n:envelope:\r\n:incoming_envelope:\r\n:postal_horn:\r\n:mailbox_closed:\r\n:mailbox_with_mail:\r\n:mailbox_with_no_mail:\r\n:package:\r\n:door:\r\n:smoking:\r\n:bomb:\r\n:gun:\r\n:hocho:\r\n:pill:\r\n:syringe:\r\n:page_facing_up:\r\n:page_with_curl:\r\n:bookmark_tabs:\r\n:bar_chart:\r\n:chart_with_upwards_trend:\r\n:chart_with_downwards_trend:\r\n:scroll:\r\n:clipboard:\r\n:calendar:\r\n:date:\r\n:card_index:\r\n:file_folder:\r\n:open_file_folder:\r\n:scissors:\r\n:pushpin:\r\n:paperclip:\r\n:black_nib:\r\n:pencil2:\r\n:straight_ruler:\r\n:triangular_ruler:\r\n:closed_book:\r\n:green_book:\r\n:blue_book:\r\n:orange_book:\r\n:notebook:\r\n:notebook_with_decorative_cover:\r\n:ledger:\r\n:books:\r\n:bookmark:\r\n:name_badge:\r\n:microscope:\r\n:telescope:\r\n:newspaper:\r\n:football:\r\n:basketball:\r\n:soccer:\r\n:baseball:\r\n:tennis:\r\n:8ball:\r\n:8ball:\r\n:rugby_football:\r\n:bowling:\r\n:golf:\r\n:mountain_bicyclist:\r\n:bicyclist:\r\n:horse_racing:\r\n:snowboarder:\r\n:swimmer:\r\n:surfer:\r\n:ski:\r\n:spades:\r\n:hearts:\r\n:clubs:\r\n:diamonds:\r\n:gem:\r\n:ring:\r\n:trophy:\r\n:musical_score:\r\n:musical_keyboard:\r\n:violin:\r\n:space_invader:\r\n:video_game:\r\n:black_joker:\r\n:flower_playing_cards:\r\n:game_die:\r\n:dart:\r\n:mahjong:\r\n:clapper:\r\n:memo:\r\n:pencil:\r\n:book:\r\n:art:\r\n:microphone:\r\n:headphones:\r\n:trumpet:\r\n:saxophone:\r\n:guitar:\r\n:shoe:\r\n:sandal:\r\n:high_heel:\r\n:lipstick:\r\n:boot:\r\n:shirt:\r\n:tshirt:\r\n:necktie:\r\n:womans_clothes:\r\n:dress:\r\n:running_shirt_with_sash:\r\n:jeans:\r\n:kimono:\r\n:bikini:\r\n:ribbon:\r\n:tophat:\r\n:crown:\r\n:womans_hat:\r\n:mans_shoe:\r\n:closed_umbrella:\r\n:briefcase:\r\n:handbag:\r\n:pouch:\r\n:purse:\r\n:eyeglasses:\r\n:fishing_pole_and_fish:\r\n:coffee:\r\n:tea:\r\n:sake:\r\n:baby_bottle:\r\n:beer:\r\n:beers:\r\n:cocktail:\r\n:tropical_drink:\r\n:wine_glass:\r\n:fork_and_knife:\r\n:pizza:\r\n:hamburger:\r\n:fries:\r\n:poultry_leg:\r\n:meat_on_bone:\r\n:spaghetti:\r\n:curry:\r\n:fried_shrimp:\r\n:bento:\r\n:sushi:\r\n:fish_cake:\r\n:rice_ball:\r\n:rice_cracker:\r\n:rice:\r\n:ramen:\r\n:stew:\r\n:oden:\r\n:dango:\r\n:egg:\r\n:bread:\r\n:doughnut:\r\n:custard:\r\n:icecream:\r\n:ice_cream:\r\n:shaved_ice:\r\n:birthday:\r\n:cake:\r\n:cookie:\r\n:chocolate_bar:\r\n:candy:\r\n:lollipop:\r\n:honey_pot:\r\n:apple:\r\n:green_apple:\r\n:tangerine:\r\n:lemon:\r\n:cherries:\r\n:grapes:\r\n:watermelon:\r\n:strawberry:\r\n:peach:\r\n:melon:\r\n:banana:\r\n:pear:\r\n:pineapple:\r\n:sweet_potato:\r\n:eggplant:\r\n:tomato:\r\n:corn:\r\n\r\n\r\nPlaces\r\n\r\n:house:\r\n:house_with_garden:\r\n:school:\r\n:office:\r\n:post_office:\r\n:hospital:\r\n:bank:\r\n:convenience_store:\r\n:love_hotel:\r\n:hotel:\r\n:wedding:\r\n:church:\r\n:department_store:\r\n:european_post_office:\r\n:city_sunrise:\r\n:city_sunset:\r\n:japanese_castle:\r\n:european_castle:\r\n:tent:\r\n:factory:\r\n:tokyo_tower:\r\n:japan:\r\n:mount_fuji:\r\n:sunrise_over_mountains:\r\n:sunrise:\r\n:stars:\r\n:statue_of_liberty:\r\n:bridge_at_night:\r\n:carousel_horse:\r\n:rainbow:\r\n:ferris_wheel:\r\n:fountain:\r\n:roller_coaster:\r\n:ship:\r\n:speedboat:\r\n:boat:\r\n:sailboat:\r\n:rowboat:\r\n:anchor:\r\n:rocket:\r\n:airplane:\r\n:helicopter:\r\n:steam_locomotive:\r\n:tram:\r\n:mountain_railway:\r\n:bike:\r\n:aerial_tramway:\r\n:suspension_railway:\r\n:mountain_cableway:\r\n:tractor:\r\n:blue_car:\r\n:oncoming_automobile:\r\n:car:\r\n:red_car:\r\n:taxi:\r\n:oncoming_taxi:\r\n:articulated_lorry:\r\n:bus:\r\n:oncoming_bus:\r\n:rotating_light:\r\n:police_car:\r\n:oncoming_police_car:\r\n:fire_engine:\r\n:ambulance:\r\n:minibus:\r\n:truck:\r\n:train:\r\n:station:\r\n:train2:\r\n:bullettrain_front:\r\n:bullettrain_side:\r\n:light_rail:\r\n:monorail:\r\n:railway_car:\r\n:trolleybus:\r\n:ticket:\r\n:fuelpump:\r\n:vertical_traffic_light:\r\n:traffic_light:\r\n:warning:\r\n:construction:\r\n:beginner:\r\n:atm:\r\n:slot_machine:\r\n:busstop:\r\n:barber:\r\n:hotsprings:\r\n:checkered_flag:\r\n:crossed_flags:\r\n:izakaya_lantern:\r\n:moyai:\r\n:circus_tent:\r\n:performing_arts:\r\n:round_pushpin:\r\n:triangular_flag_on_post:\r\n:jp:\r\n:kr:\r\n:cn:\r\n:us:\r\n:fr:\r\n:es:\r\n:it:\r\n:ru:\r\n:gb:\r\n:uk:\r\n:de:\r\n\r\n\r\nSymbols\r\n\r\n:one:\r\n:two:\r\n:three:\r\n:four:\r\n:five:\r\n:six:\r\n:seven:\r\n:eight:\r\n:nine:\r\n:keycap_ten:\r\n:1234:\r\n:zero:\r\n:hash:\r\n:symbols:\r\n:arrow_backward:\r\n:arrow_down:\r\n:arrow_forward:\r\n:arrow_left:\r\n:capital_abcd:\r\n:abcd:\r\n:abc:\r\n:arrow_lower_left:\r\n:arrow_lower_right:\r\n:arrow_right:\r\n:arrow_up:\r\n:arrow_upper_left:\r\n:arrow_upper_right:\r\n:arrow_double_down:\r\n:arrow_double_up:\r\n:arrow_down_small:\r\n:arrow_heading_down:\r\n:arrow_heading_up:\r\n:leftwards_arrow_with_hook:\r\n:arrow_right_hook:\r\n:left_right_arrow:\r\n:arrow_up_down:\r\n:arrow_up_small:\r\n:arrows_clockwise:\r\n:arrows_counterclockwise:\r\n:rewind:\r\n:fast_forward:\r\n:information_source:\r\n:ok:\r\n:twisted_rightwards_arrows:\r\n:repeat:\r\n:repeat_one:\r\n:new:\r\n:top:\r\n:up:\r\n:cool:\r\n:free:\r\n:ng:\r\n:cinema:\r\n:koko:\r\n:signal_strength:\r\n:u5272:\r\n:u5408:\r\n:u55b6:\r\n:u6307:\r\n:u6708:\r\n:u6709:\r\n:u6e80:\r\n:u7121:\r\n:u7533:\r\n:u7a7a:\r\n:u7981:\r\n:sa:\r\n:restroom:\r\n:mens:\r\n:womens:\r\n:baby_symbol:\r\n:no_smoking:\r\n:parking:\r\n:wheelchair:\r\n:metro:\r\n:baggage_claim:\r\n:accept:\r\n:wc:\r\n:potable_water:\r\n:put_litter_in_its_place:\r\n:secret:\r\n:congratulations:\r\n:m:\r\n:passport_control:\r\n:left_luggage:\r\n:customs:\r\n:ideograph_advantage:\r\n:cl:\r\n:sos:\r\n:id:\r\n:no_entry_sign:\r\n:underage:\r\n:no_mobile_phones:\r\n:do_not_litter:\r\n:non-potable_water:\r\n:no_bicycles:\r\n:no_pedestrians:\r\n:children_crossing:\r\n:no_entry:\r\n:eight_spoked_asterisk:\r\n:sparkle:\r\n:eight_pointed_black_star:\r\n:heart_decoration:\r\n:vs:\r\n:vibration_mode:\r\n:mobile_phone_off:\r\n:chart:\r\n:currency_exchange:\r\n:aries:\r\n:taurus:\r\n:gemini:\r\n:cancer:\r\n:leo:\r\n:virgo:\r\n:libra:\r\n:scorpius:\r\n:sagittarius:\r\n:capricorn:\r\n:aquarius:\r\n:pisces:\r\n:ophiuchus:\r\n:six_pointed_star:\r\n:negative_squared_cross_mark:\r\n:a:\r\n:b:\r\n:ab:\r\n:o2:\r\n:diamond_shape_with_a_dot_inside:\r\n:recycle:\r\n:end:\r\n:back:\r\n:on:\r\n:soon:\r\n:clock1:\r\n:clock130:\r\n:clock10:\r\n:clock1030:\r\n:clock11:\r\n:clock1130:\r\n:clock12:\r\n:clock1230:\r\n:clock2:\r\n:clock230:\r\n:clock3:\r\n:clock330:\r\n:clock4:\r\n:clock430:\r\n:clock5:\r\n:clock530:\r\n:clock6:\r\n:clock630:\r\n:clock7:\r\n:clock730:\r\n:clock8:\r\n:clock830:\r\n:clock9:\r\n:clock930:\r\n:heavy_dollar_sign:\r\n:copyright:\r\n:registered:\r\n:tm:\r\n:x:\r\n:heavy_exclamation_mark:\r\n:bangbang:\r\n:interrobang:\r\n:o:\r\n:heavy_multiplication_x:\r\n:heavy_plus_sign:\r\n:heavy_minus_sign:\r\n:heavy_division_sign:\r\n:white_flower:\r\n:100:\r\n:heavy_check_mark:\r\n:ballot_box_with_check:\r\n:radio_button:\r\n:link:\r\n:curly_loop:\r\n:wavy_dash:\r\n:part_alternation_mark:\r\n:trident:\r\n:black_small_square:\r\n:white_small_square:\r\n:black_medium_small_square:\r\n:white_medium_small_square:\r\n:black_medium_square:\r\n:white_medium_square:\r\n:black_large_square:\r\n:white_large_square:\r\n:white_check_mark:\r\n:black_square_button:\r\n:white_square_button:\r\n:black_circle:\r\n:white_circle:\r\n:red_circle:\r\n:large_blue_circle:\r\n:large_blue_diamond:\r\n:large_orange_diamond:\r\n:small_blue_diamond:\r\n:small_orange_diamond:\r\n:small_red_triangle:\r\n:small_red_triangle_down:\r\n:shipit:\r\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '2f64a7e0eb7f9b3052d31e27de5a4413c8e22905',
+21 silly publish   _id: 'hhhhhdddddd@1.2.3',
+21 silly publish   _shasum: '1a03dae93a4c45aeef822530652895cab1baa636',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name hhhhhdddddd
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npm.taobao.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'hhhhhdddddd',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'hhhhhdddddd',
+26 silly mapToRegistry   name: 'hhhhhdddddd',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npm.taobao.org/hhhhhdddddd
+28 verbose publish registryBase https://registry.npm.taobao.org/
+29 silly publish uploading C:\Users\Administrator\AppData\Roaming\npm-cache\hhhhhdddddd\1.2.3\package.tgz
+30 verbose request uri https://registry.npm.taobao.org/hhhhhdddddd
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 22:46:46
+33 verbose request id a13a4b260ed3a73a
+34 http request PUT https://registry.npm.taobao.org/hhhhhdddddd
+35 http 403 https://registry.npm.taobao.org/hhhhhdddddd
+36 verbose headers { date: 'Sun, 02 Apr 2017 14:46:46 GMT',
+36 verbose headers   'content-type': 'application/json; charset=utf-8',
+36 verbose headers   'content-length': '87',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-current-requests': '1',
+36 verbose headers   'x-readtime': '29' }
+37 verbose request invalidating C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\hhhhhdddddd on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: no_perms Private mode enable, only admin can publish this module: hhhhhdddddd
+39 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+39 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+39 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+39 verbose stack     at emitTwo (events.js:106:13)
+39 verbose stack     at Request.emit (events.js:191:7)
+39 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+39 verbose stack     at emitOne (events.js:96:13)
+39 verbose stack     at Request.emit (events.js:188:7)
+39 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+40 verbose statusCode 403
+41 verbose pkgid hhhhhdddddd
+42 verbose cwd D:\xampp\htdocs\vue-news\github-emoji
+43 error Windows_NT 6.1.7601
+44 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+45 error node v6.9.2
+46 error npm  v3.10.9
+47 error code E403
+48 error no_perms Private mode enable, only admin can publish this module: hhhhhdddddd
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]

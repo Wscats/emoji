@@ -1,0 +1,119 @@
+<template name="app-omil">
+  <div>
+    <div class="page__hd">
+      <h1 class="page__title">Emoji</h1>
+      <p class="page__desc">
+        <span>{this.data.category}</span>
+      </p>
+    </div>
+    <div class="page__bd page__bd_spacing">
+      <div class="weui-cells__title">Type</div>
+      <div class="weui-cells">
+        <div class="weui-cell weui-cell_select weui-cell_select-before">
+          <div class="weui-cell__hd">
+            <select class="weui-select" name="select2" onChange={this.selectCategory.bind(this)}>
+              {
+                this.data.categories.map((item)=>{
+                  return (<option value={item}>{item}</option>)
+                })
+              }
+            </select>
+          </div>
+          <div class="weui-cell__bd">
+            <input id="emojiCode" class="weui-input" type="text" placeholder="The emoji code" value={this.data.emoji} />
+          </div>
+          <div class="weui-cell__ft">
+            <button class="weui-vcode-btn" onClick={this.copyCode.bind(this)}>复制代码</button>
+          </div>
+        </div>
+      </div>
+      <div class="weui-cells__title">Zoom(Moving dot right or left)</div>
+      <div class="weui-cells__title">Choose(鼠标选择表情然后复制代码)</div>
+      <div>
+        <p class="page__bd page__bd_spacing_top">
+          {
+            (()=>{
+              let arr = []
+              Object.keys(this.data.emojis).forEach(key => {
+                if(this.data.category==="all"){
+                  arr.push(<span onClick={this.chooseEmoji.bind(this,key)} alias="smile" ios-version="6.0">{this.data.emojis[key].char}</span>)
+                }else if(this.data.emojis[key].category===this.data.category){
+                  arr.push(<span onClick={this.chooseEmoji.bind(this,key)} alias="smile" ios-version="6.0">{this.data.emojis[key].char}</span>)
+                }
+              })
+              return arr
+            })()
+            
+          }
+        </p>
+      </div>
+    </div>
+    <div id="toast" style={{display: this.data.isShowToast?'block':'none'}}>
+      <div class="weui-mask_transparent"></div>
+      <div class="weui-toast">
+        <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+        <p class="weui-toast__content">已复制到剪贴板</p>
+      </div>
+    </div>
+    <div class="weui-footer" style={{paddingTop: '30px'}}>
+      <p class="weui-footer__links">
+        <a href="https://github.com/Wscats" class="weui-footer__link">Wscats</a>
+        <a href="https://github.com/windiest" class="weui-footer__link">Windiest</a>
+      </p>
+      <p class="weui-footer__text">Copyright &copy;
+        <!--2006-2017-->
+      </p>
+    </div>
+  </div>
+</template>
+<script>
+  import weui from 'weui'
+  import style from './_index.css'
+  import emojis from './emojis.json'
+  export default class {
+    static css = style + weui
+    install() {
+      this.data = {
+        isShowToast: false,
+        // 所有表情
+        emojis,
+        // 被选表情
+        emoji: "😊",
+        // 表情类型
+        categories: ['all','people','animals_and_nature','food_and_drink','activity','travel_and_places','objects','symbols','flags'],
+        // 选中的表情类型
+        category: 'all'
+      }
+    }
+    // 复制表情
+    copyCode() {
+      //复制代码到粘贴板
+      let input = document.getElementById('emojiCode');
+      //console.log(input);
+      //input.focus();
+      input.select();
+      document.execCommand('Copy');
+      this.data.isShowToast = true
+      this.update()
+      setTimeout(() => {
+        this.data.isShowToast = false
+        this.update()
+      }, 800)
+    }
+    // 选表情
+    chooseEmoji(key) {
+      this.data.emoji = this.data.emojis[key].char
+      this.update()
+      console.log(this.data.emojis[key].char)
+    }
+    // 选中类型
+    selectCategory(e) {
+      console.log(e.target.value)
+      this.data.category = e.target.value
+      this.update()
+    }
+  }
+</script>
+<style>
+
+</style>
