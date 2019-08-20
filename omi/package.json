@@ -43,6 +43,7 @@
     "mini-css-extract-plugin": "^0.5.0",
     "object-assign": "4.1.1",
     "omi": "latest",
+    "omil": "latest",
     "omi-router": "latest",
     "omio": "latest",
     "omiu": "latest",
