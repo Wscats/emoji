@@ -4,7 +4,7 @@
 
 <p>
   <strong>Use Weui and Omi prepared by emoji</strong>,
-  <a href="https://wscats.github.io/github-emoji/omi/build/index.html">Live Demo</a>
+  <a href="https://wscats.github.io/emoji/omi/build/index.html">Live Demo</a>
 </p>
 
 <p>
@@ -14,10 +14,10 @@
 </p>
 
 <p>
-<a href="https://github.com/Wscats/github-emoji"><img src="https://wscats.github.io/Angular-news/news/image/npm.svg" alt="NPM version"></a>
-<a href="https://github.com/Wscats/github-emoji"><img src="https://wscats.github.io/Angular-news/news/image/mit.svg" alt="MIT License"></a>
-<a href="https://github.com/Wscats/github-emoji"><img src="https://wscats.github.io/Angular-news/news/image/linux.svg" alt="Linux Build"></a>
-<a href="https://github.com/Wscats/github-emoji"><img src="https://wscats.github.io/Angular-news/news/image/windows.svg" alt="Window Build"/></a>
+<a href="https://github.com/Wscats/emoji"><img src="https://wscats.github.io/Angular-news/news/image/npm.svg" alt="NPM version"></a>
+<a href="https://github.com/Wscats/emoji"><img src="https://wscats.github.io/Angular-news/news/image/mit.svg" alt="MIT License"></a>
+<a href="https://github.com/Wscats/emoji"><img src="https://wscats.github.io/Angular-news/news/image/linux.svg" alt="Linux Build"></a>
+<a href="https://github.com/Wscats/emoji"><img src="https://wscats.github.io/Angular-news/news/image/windows.svg" alt="Window Build"/></a>
 </p>
 
 </div>
@@ -25,15 +25,15 @@
 # Usage
 
 
-体验地址： https://wscats.github.io/github-emoji/omi/build/
+体验地址： https://wscats.github.io/emoji/omi/build/
 
-项目地址： https://github.com/Wscats/github-emoji
+项目地址： https://github.com/Wscats/emoji
 
 # Installation(Git)
 
 克隆项目地址并下载（需要已安装[Git](https://git-scm.com/downloads)）
 ```bash
-git clone https://github.com/Wscats/github-emoji.git
+git clone https://github.com/Wscats/emoji.git
 ```
 定位到 build 文件夹，在浏览器打开 index.html
 ```
