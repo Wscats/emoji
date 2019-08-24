@@ -149,7 +149,7 @@ module.exports = function(window, document) {var navigator = window.navigator;va
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push([5,0]);
+/******/ 	deferredModules.push([6,0]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -189,8 +189,14 @@ module.exports = _defineProperty;
 // extracted by mini-css-extract-plugin
 
 /***/ }),
-/* 4 */,
-/* 5 */
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 5 */,
+/* 6 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -208,7 +214,7 @@ var _index = __webpack_require__(2);
 var _index_default = /*#__PURE__*/__webpack_require__.n(_index);
 
 // EXTERNAL MODULE: ./src/components/todo-footer/index.css
-var todo_footer = __webpack_require__(3);
+var todo_footer = __webpack_require__(4);
 
 // CONCATENATED MODULE: ./src/components/todo-footer/index.js
 
@@ -461,7 +467,7 @@ todo_Todo.store = function (_) {
 todo_Todo.css = _index_default.a;
 /* harmony default export */ var components_todo = (todo_Todo);
 // EXTERNAL MODULE: ./src/components/emoji/_index.css
-var emoji_index = __webpack_require__(6);
+var emoji_index = __webpack_require__(3);
 var emoji_index_default = /*#__PURE__*/__webpack_require__.n(emoji_index);
 
 // CONCATENATED MODULE: ./src/components/emoji/emojis.js
@@ -634,32 +640,29 @@ var _this = undefined;
 
 
 var emoji_Emoji = function Emoji(props, _ref) {
-  var name = _ref.name,
+  var title = _ref.title,
       emojis = _ref.emojis,
       selectEmoji = _ref.selectEmoji;
   return Object(omis_esm["a" /* h */])("div", {
     "class": "container"
   }, Object(omis_esm["a" /* h */])("div", {
     "class": "title"
-  }, name), Object(omis_esm["a" /* h */])("div", {
+  }, title), Object(omis_esm["a" /* h */])("div", {
     "class": "weui-grids"
   }, emojis.map(function (item) {
     return Object(omis_esm["a" /* h */])("a", {
+      style: {
+        background: "url(".concat(item.emoji, ") no-repeat center")
+      },
       onClick: selectEmoji.bind(_this, item.type),
       "class": "weui-grid"
-    }, Object(omis_esm["a" /* h */])("div", {
-      "class": "weui-grid__icon"
-    }, Object(omis_esm["a" /* h */])("img", {
-      src: item.emoji,
-      alt: item.type
-    })), Object(omis_esm["a" /* h */])("p", {
-      "class": "weui-grid__label"
-    }, item.toggle ? '真' : '假'));
+    });
   })));
 };
 
 emoji_Emoji.store = function (_) {
   return {
+    title: '选取下面两个相同的表情消除',
     name: 'Eno Yao',
     // 表情
     emojis: emoji_emojis,
@@ -668,15 +671,21 @@ emoji_Emoji.store = function (_) {
       this.emojis = this.emojis.map(function (item) {
         item.toggle = false;
         return item;
-      }); // console.log(this.emojis)
-      // _.update()
+      }); // _.randomEmojis()
+
+      var randomEmojis = this.randomEmojis(_.store.emojis, 15); // _.update()
       // console.log('install')
     },
+    installed: function installed() {
+      console.log(_);
+    },
     selectEmoji: function selectEmoji(type, e) {
-      console.log(e);
-      e.style.border = '1px solid red';
-      console.log(type); // 筛选对应的表情
-
+      // console.log(this)
+      // e.stopPropagation()
+      // e.preventDefault()
+      // console.log(e)
+      // console.log(type)
+      // 筛选对应的表情
       var selectEmoji = _.store.emojis.filter(function (item) {
         return item.type === type;
       });
@@ -688,17 +697,46 @@ emoji_Emoji.store = function (_) {
         switch (toggle) {
           case true:
             _.store.emojis.filter(function (item) {
-              return item.type === type;
+              if (item.type === type) {
+                return item.toggle = false;
+              }
             });
 
+            e.target.style.backgroundColor = '';
             break;
 
           default:
+            _.store.emojis.filter(function (item) {
+              if (item.type === type) {
+                return item.toggle = true;
+              }
+            });
+
+            e.target.style.backgroundColor = '#cacbcc';
             break;
         }
       } // this.inputText = evt.target.value
 
-    }
+    },
+    // 随机生成15个表情并在里面拿其中一个复制并插入任意位置
+    randomEmojis: function randomEmojis(arr, count) {
+      var shuffled = arr.slice(0),
+          i = arr.length,
+          min = i - count,
+          temp,
+          index;
+
+      while (i-- > min) {
+        index = Math.floor((i + 1) * Math.random());
+        temp = shuffled[index];
+        shuffled[index] = shuffled[i];
+        shuffled[i] = temp;
+      }
+
+      return shuffled.slice(min);
+    },
+    // 使用arr数组，随机生成长度为count的新数组
+    getRandomEmojis: function getRandomEmojis(arr, count) {}
   };
 };
 
@@ -716,12 +754,6 @@ function createApp() {
   Object(omis_esm["b" /* render */])(Object(omis_esm["a" /* h */])(emoji, null), '#app');
 }
 "undefined" != typeof wx && wx.getSystemInfoSync || createApp();
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ })
 /******/ ])["default"];}

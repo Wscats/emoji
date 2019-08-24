@@ -196,6 +196,10 @@ todo-footer{
   font-weight: 500;
 }
 
+.title{
+    font-size: 26px;
+}
+
 .weui-grids {
     position: relative;
     overflow: hidden;
@@ -219,7 +223,7 @@ todo-footer{
 .weui-grid {
     position: relative;
     float: left;
-    padding: 38px 10px;
+    padding: 50px 10px;
     width: 25%;
     box-sizing: border-box;
 }

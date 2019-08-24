@@ -4,18 +4,20 @@ import emojis from './emojis'
 
 
 
-const Emoji = (props, { name, emojis, selectEmoji }) => {
+const Emoji = (props, { title, emojis, selectEmoji }) => {
   return (
     <div class="container">
-      <div class="title">{name}</div>
+      <div class="title">{title}</div>
       <div class="weui-grids">
         {
           emojis.map((item) => {
-            return (<a onClick={selectEmoji.bind(this, item.type)} class="weui-grid">
-              <div class="weui-grid__icon">
-                <img src={item.emoji} alt={item.type} />
-              </div>
-              <p class="weui-grid__label">{item.toggle ? '真' : '假'}</p>
+            return (<a style={{
+              background: `url(${item.emoji}) no-repeat center`,
+            }} onClick={selectEmoji.bind(this, item.type)} class="weui-grid">
+              {/*<div class="weui-grid__icon">
+                  <img src={item.emoji} alt={item.type} />
+                </div>
+              <p class="weui-grid__label">{item.toggle ? '真' : '假'}</p>*/}
             </a>)
           })
         }
@@ -26,6 +28,7 @@ const Emoji = (props, { name, emojis, selectEmoji }) => {
 
 Emoji.store = _ => {
   return {
+    title: '选取下面两个相同的表情消除',
     name: 'Eno Yao',
     // 表情
     emojis,
@@ -36,15 +39,22 @@ Emoji.store = _ => {
         item.toggle = false
         return item
       })
-      // console.log(this.emojis)
+      // _.randomEmojis()
+      let randomEmojis = this.randomEmojis(_.store.emojis, 15)
       // _.update()
       // console.log('install')
     },
+    installed() {
+      console.log(_)
+    },
 
     selectEmoji(type, e) {
-      console.log(e)
-      e.style.border = '1px solid red'
-      console.log(type)
+      // console.log(this)
+      // e.stopPropagation()
+      // e.preventDefault()
+      // console.log(e)
+
+      // console.log(type)
       // 筛选对应的表情
       let selectEmoji = _.store.emojis.filter((item) => {
         return item.type === type
@@ -52,19 +62,42 @@ Emoji.store = _ => {
       if (selectEmoji.length > 0) {
         let { toggle } = selectEmoji[0]
         console.log(toggle)
-        switch(toggle){
+        switch (toggle) {
           case true:
-              _.store.emojis.filter((item) => {
-                return item.type === type
-              })
-              
+            _.store.emojis.filter((item) => {
+              if (item.type === type) {
+                return item.toggle = false
+              }
+            })
+            e.target.style.backgroundColor = ''
             break
           default:
+            _.store.emojis.filter((item) => {
+              if (item.type === type) {
+                return item.toggle = true
+              }
+            })
+            e.target.style.backgroundColor = '#cacbcc'
             break
         }
       }
-
       // this.inputText = evt.target.value
+    },
+
+    // 随机生成15个表情并在里面拿其中一个复制并插入任意位置
+    randomEmojis(arr, count) {
+      let shuffled = arr.slice(0), i = arr.length, min = i - count, temp, index
+      while (i-- > min) {
+        index = Math.floor((i + 1) * Math.random())
+        temp = shuffled[index]
+        shuffled[index] = shuffled[i]
+        shuffled[i] = temp
+      }
+      return shuffled.slice(min)
+    },
+    // 使用arr数组，随机生成长度为count的新数组
+    getRandomEmojis(arr, count) {
+
     }
   }
 
