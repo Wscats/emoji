@@ -212,10 +212,10 @@ class AppOmil extends WeElement {
           h(
             "a",
             {
-              href: "https://github.com/windiest",
+              href: "https://github.com/Wscats",
               class: "weui-footer__link"
             },
-            "Windiest"
+            "Eno Yao"
           )
         ),
         h(
