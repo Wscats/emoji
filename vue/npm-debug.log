@@ -39,7 +39,7 @@
 21 silly publish   repository:
 21 silly publish    { type: 'git',
 21 silly publish      url: 'git+https://github.com/Wscats/github-emoji.git' },
-21 silly publish   author: { name: 'Wscats oaoafly&Windiest' },
+21 silly publish   author: { name: 'Wscats oaoafly&wscats' },
 21 silly publish   license: 'ISC',
 21 silly publish   bugs: { url: 'https://github.com/Wscats/github-emoji/issues' },
 21 silly publish   homepage: 'https://github.com/Wscats/github-emoji#readme',

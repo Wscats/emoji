@@ -936,7 +936,7 @@
 		<div class="weui-footer" style="padding-top: 30px;">
 			<p class="weui-footer__links">
 				<a href="https://github.com/Wscats" class="weui-footer__link">Wscats Oaoafly</a>
-				<a href="https://github.com/windiest" class="weui-footer__link">Windiest</a>
+				<a href="https://github.com/wscats" class="weui-footer__link">wscats</a>
 			</p>
 			<p class="weui-footer__text">Copyright &copy;
 				<!--2006-2017-->
