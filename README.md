@@ -14,10 +14,10 @@
 </p>
 
 <p>
-<a href="https://github.com/Wscats/emoji"><img src="https://wscats.github.io/Angular-news/news/image/npm.svg" alt="NPM version"></a>
-<a href="https://github.com/Wscats/emoji"><img src="https://wscats.github.io/Angular-news/news/image/mit.svg" alt="MIT License"></a>
-<a href="https://github.com/Wscats/emoji"><img src="https://wscats.github.io/Angular-news/news/image/linux.svg" alt="Linux Build"></a>
-<a href="https://github.com/Wscats/emoji"><img src="https://wscats.github.io/Angular-news/news/image/windows.svg" alt="Window Build"/></a>
+<a href="https://github.com/Wscats/emoji"><img src="https://img.shields.io/badge/Star-290+-orange" /></a>
+<a href="https://wscats.github.io/emoji/omi/build/"><img src="https://img.shields.io/badge/Version-5.20-brightgreen" /></a>
+<a href="https://github.com/Wscats/emoji"><img src="https://img.shields.io/badge/Github Page-Wscats-yellow" /></a>
+<a href="https://github.com/Wscats"><img src="https://img.shields.io/badge/Author-Eno Yao-blueviolet" /></a>
 </p>
 
 </div>
