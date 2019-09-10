@@ -77,7 +77,7 @@ git commit –m 'commit some changes :blush:'
 
 You can also copy the following selected pasted into github project you need inside text or title, I hope you enjoy it! Star or fork now:smile:
 
-People
+## People
 
 :bowtie:
 :smile:
@@ -273,7 +273,7 @@ People
 :trollface:
 
 
-Nature
+## Nature
 
 :sunny:
 :umbrella:
@@ -392,7 +392,7 @@ Nature
 :squirrel:
 
 
-Objects
+## Objects
 
 :bamboo:
 :gift_heart:
@@ -657,7 +657,7 @@ Objects
 :corn:
 
 
-Places
+## Places
 
 :house:
 :house_with_garden:
@@ -767,7 +767,7 @@ Places
 :de:
 
 
-Symbols
+## Symbols
 
 :one:
 :two:
