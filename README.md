@@ -73,7 +73,7 @@ So you can write code to submit information submitted when:
 git commit –m 'commit some changes :blush:'
 ```
 
-也可以直接复制以下你选中的粘贴到github项目中你所需要的文本或者标题里面，希望你enjoy it! star or fork now:smile:
+也可以直接复制以下你选中的表情粘贴到github项目你所需要的文本或者标题里面，希望你enjoy it! star or fork now:smile:
 
 You can also copy the following selected pasted into github project you need inside text or title, I hope you enjoy it! Star or fork now:smile:
 
