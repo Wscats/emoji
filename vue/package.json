@@ -28,7 +28,7 @@
 		"style-loader": "^0.16.1",
 		"vue-template-compiler": "^2.1.6",
 		"webpack": "^1.14.0",
-		"webpack-dev-server": "^2.3.0",
+		"webpack-dev-server": "^3.9.0",
 		"weui": "^1.1.1"
 	},
 	"devDependencies": {
