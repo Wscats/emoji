@@ -1,0 +1,290 @@
+[
+    {
+        "language": "txt",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "actionscript",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "ada",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "asm",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "asp",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "autoit",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "baanc",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "bash",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "batch",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "c",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "cs",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "cmake",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "cpp",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "css",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "caml",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "cobol",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "coffeescript",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "d",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "dart",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "ejs",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "fortran",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "fortran77",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "html",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "html_es6",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "handlebars",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "haskell",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "inno",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "json",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "json_tm",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "java",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "javascript",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "javascriptreact",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "javascript_es6",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "kix",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "less",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "lisp",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "lua",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "markdown",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "matlab",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "njs",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "nml",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "nsis",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "nss",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "objc",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "php",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "pascal",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "perl",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "postscript",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "powershell",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "python",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "r",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "rc",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "ruby",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "sql",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "sass",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "scheme",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "scss",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "smalltalk",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "stylus",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "swift",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "tcl",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "typescript",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "typescriptreact",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "ux",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "vb",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "vhdl",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "verilog",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "vue",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "wxml",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "xml",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "yaml",
+        "path": "./snippets/hbuilder.json"
+    },
+    {
+        "language": "pug",
+        "path": "./snippets/hbuilder.json"
+    }
+]

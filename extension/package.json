@@ -1,0 +1,26 @@
+{
+	"name": "hx-snippet",
+	"description": "HBuilderX插件开发API代码块",
+	"displayName": "HBuilderX插件开发API代码块",
+	"version": "0.0.1",
+	"publisher": "hx",
+	"engines": {
+		"HBuilderX": "^2.7.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"contributes": {
+		"snippets": [{
+			"language": "javascript",
+			"path": "./snippets/hx.json"
+		}, {
+			"language": "typescript",
+			"path": "./snippets/hx.json"
+		}]
+	},
+	"extensionDependencies": [
+		"plugin-manager"
+	],
+	"dependencies": {}
+}
