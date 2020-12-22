@@ -1,4 +1,4 @@
-|Emoji|Prefix|
+|表情包|前缀|
 |-|-|
 |💯|score,perfect,numbers,century,exam,quiz,test,pass,hundred|
 |🔢|numbers,blue-square|

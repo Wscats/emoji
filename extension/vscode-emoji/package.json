@@ -1,0 +1,331 @@
+{
+    "name": "emoji",
+    "displayName": "Emoji Snippets",
+    "description": "😁Snippets to insert escaped Emoji code into a variety of languages",
+    "version": "0.0.2",
+    "author": {
+        "name": "Eno Yao",
+        "email": "kalone.cool@gmail.com",
+        "url": "https://github.com/Wscats"
+    },
+    "publisher": "Wscats",
+    "preview": true,
+    "icon": "assets/logo.png",
+    "homepage": "https://github.com/Wscats/emoji",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "emoji"
+    ],
+    "galleryBanner": {
+        "color": "#58bc58",
+        "theme": "dark"
+    },
+    "bugs": {
+        "url": "https://github.com/Wscats/emoji/issues/new"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wscats/emoji"
+    },
+    "scripts": {
+        "publish": "vsce package"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "txt",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "actionscript",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "ada",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "asm",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "asp",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "autoit",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "baanc",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "bash",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "batch",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "c",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "cs",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "cmake",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "caml",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "cobol",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "coffeescript",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "d",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "ejs",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "fortran",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "fortran77",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "html_es6",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "handlebars",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "haskell",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "inno",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "json_tm",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "java",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "javascript_es6",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "kix",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "less",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "lisp",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "lua",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "matlab",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "njs",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "nml",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "nsis",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "nss",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "objc",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "pascal",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "perl",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "postscript",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "powershell",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "r",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "rc",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "ruby",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "sql",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "sass",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "scheme",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "smalltalk",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "stylus",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "swift",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "tcl",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "ux",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "vb",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "vhdl",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "verilog",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "wxml",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "xml",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "yaml",
+                "path": "./snippets/emoji.json"
+            },
+            {
+                "language": "pug",
+                "path": "./snippets/emoji.json"
+            }
+        ]
+    }
+}
