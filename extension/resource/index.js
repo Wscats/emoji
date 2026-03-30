@@ -1,3 +1,5 @@
+'use strict';
+
 const emojis = require('./emoji.json');
 const fs = require('fs');
 let hbuilder = {};

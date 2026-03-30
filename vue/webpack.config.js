@@ -1,3 +1,5 @@
+'use strict';
+
 //webpack.config.js
 module.exports = {
 	devtool: 'eval-source-map', //用于调试代码

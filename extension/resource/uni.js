@@ -1,3 +1,5 @@
+'use strict';
+
 const javascript = require('./javascript.json');
 const css = require('./css.json');
 const html = require('./vue-html.json');

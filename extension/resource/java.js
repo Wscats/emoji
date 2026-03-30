@@ -1,3 +1,5 @@
+'use strict';
+
 const javascript = {
 	"'appletResize' - 'Method in interface java.applet.AppletStub'": {
 		"description": "Takes 2 args. Method in interface java.applet.AppletStub  Called when the applet wants to be resized. ",
@@ -4368,14 +4370,14 @@ const javascript = {
 		]
 	},
 	"'attemptMark' - 'Method in class java.util.concurrent.atomic.AtomicMarkableReference'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicMarkableReference  Atomically sets the value of the mark to the given update value  if the current reference is == to the expected  reference. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicMarkableReference  Atomically sets the value of the mark to the given update value  if the current reference is === to the expected  reference. ",
 		"prefix": "attemptMark",
 		"body": [
 			"attemptMark(${1:V}, ${2:boolean})"
 		]
 	},
 	"'attemptStamp' - 'Method in class java.util.concurrent.atomic.AtomicStampedReference'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicStampedReference  Atomically sets the value of the stamp to the given update value  if the current reference is == to the expected  reference. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicStampedReference  Atomically sets the value of the stamp to the given update value  if the current reference is === to the expected  reference. ",
 		"prefix": "attemptStamp",
 		"body": [
 			"attemptStamp(${1:V}, ${2:int})"
@@ -20855,84 +20857,84 @@ const javascript = {
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicBoolean'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicBoolean  Atomically sets the value to the given updated value  if the current value == the expected value. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicBoolean  Atomically sets the value to the given updated value  if the current value === the expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:boolean}, ${2:boolean})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicInteger'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicInteger  Atomically sets the value to the given updated value  if the current value == the expected value. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicInteger  Atomically sets the value to the given updated value  if the current value === the expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:int}, ${2:int})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicIntegerArray'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicIntegerArray  Atomically sets the element at position i to the given  updated value if the current value == the expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicIntegerArray  Atomically sets the element at position i to the given  updated value if the current value === the expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:int}, ${2:int}, ${3:int})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicIntegerFieldUpdater'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicIntegerFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value == the  expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicIntegerFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value === the  expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:T}, ${2:int}, ${3:int})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicLong'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicLong  Atomically sets the value to the given updated value  if the current value == the expected value. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicLong  Atomically sets the value to the given updated value  if the current value === the expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:long}, ${2:long})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicLongArray'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicLongArray  Atomically sets the element at position i to the given  updated value if the current value == the expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicLongArray  Atomically sets the element at position i to the given  updated value if the current value === the expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:int}, ${2:long}, ${3:long})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicLongFieldUpdater'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicLongFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value == the  expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicLongFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value === the  expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:T}, ${2:long}, ${3:long})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicMarkableReference'": {
-		"description": "Takes 4 args. Method in class java.util.concurrent.atomic.AtomicMarkableReference  Atomically sets the value of both the reference and mark  to the given update values if the  current reference is == to the expected reference  and the current mark is equal to the expected mark. ",
+		"description": "Takes 4 args. Method in class java.util.concurrent.atomic.AtomicMarkableReference  Atomically sets the value of both the reference and mark  to the given update values if the  current reference is === to the expected reference  and the current mark is equal to the expected mark. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:V}, ${2:V}, ${3:boolean}, ${4:boolean})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicReference'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicReference  Atomically sets the value to the given updated value  if the current value == the expected value. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicReference  Atomically sets the value to the given updated value  if the current value === the expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:V}, ${2:V})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicReferenceArray'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicReferenceArray  Atomically sets the element at position i to the given  updated value if the current value == the expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicReferenceArray  Atomically sets the element at position i to the given  updated value if the current value === the expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:int}, ${2:E}, ${3:E})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicReferenceFieldUpdater'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicReferenceFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value == the  expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicReferenceFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value === the  expected value. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:T}, ${2:V}, ${3:V})"
 		]
 	},
 	"'compareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicStampedReference'": {
-		"description": "Takes 4 args. Method in class java.util.concurrent.atomic.AtomicStampedReference  Atomically sets the value of both the reference and stamp  to the given update values if the  current reference is == to the expected reference  and the current stamp is equal to the expected stamp. ",
+		"description": "Takes 4 args. Method in class java.util.concurrent.atomic.AtomicStampedReference  Atomically sets the value of both the reference and stamp  to the given update values if the  current reference is === to the expected reference  and the current stamp is equal to the expected stamp. ",
 		"prefix": "compareAndSet",
 		"body": [
 			"compareAndSet(${1:V}, ${2:V}, ${3:int}, ${4:int})"
@@ -39778,7 +39780,7 @@ const javascript = {
 		]
 	},
 	"'equals' - 'Method in class java.awt.RenderingHints.Key'": {
-		"description": "Takes 0 args. Method in class java.awt.RenderingHints.Key  The equals method for all Key objects will return the same  result as the equality operator '=='. ",
+		"description": "Takes 0 args. Method in class java.awt.RenderingHints.Key  The equals method for all Key objects will return the same  result as the equality operator '==='. ",
 		"prefix": "equals",
 		"body": [
 			"equals()"
@@ -163912,7 +163914,7 @@ const javascript = {
 		]
 	},
 	"'nextDouble' - 'Static method in class java.text.ChoiceFormat'": {
-		"description": "Takes 2 args. Static method in class java.text.ChoiceFormat  Finds the least double greater than d (if positive == true),  or the greatest double less than d (if positive == false). ",
+		"description": "Takes 2 args. Static method in class java.text.ChoiceFormat  Finds the least double greater than d (if positive === true),  or the greatest double less than d (if positive === false). ",
 		"prefix": "nextDouble",
 		"body": [
 			"nextDouble(${1:double}, ${2:boolean})"
@@ -250399,84 +250401,84 @@ const javascript = {
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicBoolean'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicBoolean  Atomically sets the value to the given updated value  if the current value == the expected value. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicBoolean  Atomically sets the value to the given updated value  if the current value === the expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:boolean}, ${2:boolean})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicInteger'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicInteger  Atomically sets the value to the given updated value  if the current value == the expected value. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicInteger  Atomically sets the value to the given updated value  if the current value === the expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:int}, ${2:int})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicIntegerArray'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicIntegerArray  Atomically sets the element at position i to the given  updated value if the current value == the expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicIntegerArray  Atomically sets the element at position i to the given  updated value if the current value === the expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:int}, ${2:int}, ${3:int})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicIntegerFieldUpdater'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicIntegerFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value == the  expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicIntegerFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value === the  expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:T}, ${2:int}, ${3:int})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicLong'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicLong  Atomically sets the value to the given updated value  if the current value == the expected value. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicLong  Atomically sets the value to the given updated value  if the current value === the expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:long}, ${2:long})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicLongArray'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicLongArray  Atomically sets the element at position i to the given  updated value if the current value == the expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicLongArray  Atomically sets the element at position i to the given  updated value if the current value === the expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:int}, ${2:long}, ${3:long})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicLongFieldUpdater'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicLongFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value == the  expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicLongFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value === the  expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:T}, ${2:long}, ${3:long})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicMarkableReference'": {
-		"description": "Takes 4 args. Method in class java.util.concurrent.atomic.AtomicMarkableReference  Atomically sets the value of both the reference and mark  to the given update values if the  current reference is == to the expected reference  and the current mark is equal to the expected mark. ",
+		"description": "Takes 4 args. Method in class java.util.concurrent.atomic.AtomicMarkableReference  Atomically sets the value of both the reference and mark  to the given update values if the  current reference is === to the expected reference  and the current mark is equal to the expected mark. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:V}, ${2:V}, ${3:boolean}, ${4:boolean})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicReference'": {
-		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicReference  Atomically sets the value to the given updated value  if the current value == the expected value. ",
+		"description": "Takes 2 args. Method in class java.util.concurrent.atomic.AtomicReference  Atomically sets the value to the given updated value  if the current value === the expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:V}, ${2:V})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicReferenceArray'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicReferenceArray  Atomically sets the element at position i to the given  updated value if the current value == the expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicReferenceArray  Atomically sets the element at position i to the given  updated value if the current value === the expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:int}, ${2:E}, ${3:E})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicReferenceFieldUpdater'": {
-		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicReferenceFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value == the  expected value. ",
+		"description": "Takes 3 args. Method in class java.util.concurrent.atomic.AtomicReferenceFieldUpdater  Atomically sets the field of the given object managed by this updater  to the given updated value if the current value === the  expected value. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:T}, ${2:V}, ${3:V})"
 		]
 	},
 	"'weakCompareAndSet' - 'Method in class java.util.concurrent.atomic.AtomicStampedReference'": {
-		"description": "Takes 4 args. Method in class java.util.concurrent.atomic.AtomicStampedReference  Atomically sets the value of both the reference and stamp  to the given update values if the  current reference is == to the expected reference  and the current stamp is equal to the expected stamp. ",
+		"description": "Takes 4 args. Method in class java.util.concurrent.atomic.AtomicStampedReference  Atomically sets the value of both the reference and stamp  to the given update values if the  current reference is === to the expected reference  and the current stamp is equal to the expected stamp. ",
 		"prefix": "weakCompareAndSet",
 		"body": [
 			"weakCompareAndSet(${1:V}, ${2:V}, ${3:int}, ${4:int})"
